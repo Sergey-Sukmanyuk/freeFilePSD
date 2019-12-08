@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+body {
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'PT Serif', serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5e5e5e;
+}
+
+/*======================================= THE END OF GENERAL STYLES =============================================*/
+
+/*============================================ HEADER STYLES ====================================================*/
+header {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__top {
+    background-color: #303030;
+}
+
+.header__btn {
+    float: right;
+    line-height: 36px;
+    color: #1b1b1b;
+    background-color: #ffc222;
+    padding: 5px 20px 4px 50px;
+    font-size: 20px;
+    position: relative;
+}
+
+.header__btn:before {
+    font-family: 'icomoon';
+    content: "\f0b1";
+    position: absolute;
+    left: 22px;
+    color: #1b1b1b;
+}
+
+.header__contacts:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.header__tel,
+.header__email {
+    color: #cbcacb;
+    letter-spacing: .25px;
+    line-height: 45px;
+    position: relative;
+}
+
+.header__tel {
+    padding-left: 20px;
+    padding-right: 30px;
+}
+
+.header__tel:before {
+    font-family: 'icomoon';
+    content: "\f095";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header__email {
+    padding-left: 24px;
+}
+
+.header__email:before {
+    font-family: 'icomoon';
+    content: "\f003";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+}
+
+.header__content {
+    padding: 34px 0 23px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.header__content-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    font-size: 26px;
+    line-height: 36px;
+    color: #323232;
+    border: 1px solid transparent;
+    padding: 0 16px;
+    transition: all 1s;
+}
+
+.menu a:hover {
+    border-color: #ffc222;
+}
+
+.menu li + li {
+    padding-left: 10px;
+}
+
+#modal {
+    display: none;
+}
+
+/*============================================ HEADER STYLES THE END=================================================*/
+
+/*============================================== FIRST BLOCK =======================================================*/
+
+.slider {
+    background-image: url(../img/bg-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.slider__item__content {
+    text-align: center;
+    max-width: 665px;
+    padding-top: 110px;
+    margin: 0 auto;
+}
+
+.slider__title {
+    text-transform: uppercase;
+    line-height: 36px;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    margin-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.slider__text {
+    font-size: 18px;
+    line-height: 24px;
+    color: #d3d2d2;
+    margin-bottom: 50px;
+}
+
+.default__btn {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    letter-spacing: .25px;
+    padding: 8px 30px 8px 24px;
+    border: 1px solid #ffc222;
+    border-right-width: 20px;
+    font-weight: 500;
+    position: relative;
+    outline: none;
+}
+
+.default__btn:after {
+    font-family: 'icomoon';
+    content: "\f105";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -12px;
+}
+
+.slider__inner {
+    position: relative;
+}
+
+.slick-btn {
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border:1px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    background-color: #ffc222;
+}
+
+.slick-disabled.slick-btn {
+    background-color: transparent;
+    cursor: default;
+}
+
+.slick-btn:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.slick-next {
+    left: 0;
+}
+
+.slick-next:before {
+    font-family: 'icomoon';
+    content: "\f104";
+}
+
+.slick-prev {
+    right: 0;
+}
+
+.slick-prev:before {
+    font-family: 'icomoon';
+    content: "\f105";
+}
+
