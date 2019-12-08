@@ -6,4 +6,6 @@ $('.slider__inner').slick({
 });
 
 
+$('select').styler();
+
 })
