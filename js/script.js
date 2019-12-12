@@ -5,7 +5,10 @@ $('.slider__inner, .news__slider__inner').slick({
     infinite: false
 });
 
-
 $('select').styler();
+
+$('.header__btn__menu').on('click', function () {
+    $('.menu ul').slideToggle();
+})
 
 })

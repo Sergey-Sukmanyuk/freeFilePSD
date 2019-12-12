@@ -4,8 +4,6 @@
     <list default="true" id="7efda8c5-adb8-4d23-88f0-b9b1fe85290d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/article-pic-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/article-pic-2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
     </list>
@@ -51,7 +49,9 @@
       <workItem from="1575777223978" duration="38306000" />
       <workItem from="1575861806648" duration="5176000" />
       <workItem from="1575910994552" duration="8145000" />
-      <workItem from="1575948176711" duration="764000" />
+      <workItem from="1575948176711" duration="6138000" />
+      <workItem from="1576034497539" duration="7205000" />
+      <workItem from="1576126189716" duration="506000" />
     </task>
     <task id="LOCAL-00001" summary="Made blocks 'Our services', 'About company' and 'Consulting'(with form)">
       <created>1575822443365</created>
